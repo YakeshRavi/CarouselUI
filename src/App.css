@@ -1,0 +1,63 @@
+
+.CarouselContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+  height: 500px; 
+  max-height: 90vh; 
+  overflow: hidden;
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.Image {
+  display: flex;
+  transition: transform 0.5s;
+  height: 100%; 
+}
+
+.PrevNextButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: aquamarine;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: snow;
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-style: double;
+  cursor: pointer;
+  font-size: 3rem;
+  z-index: 2;
+}
+
+.PrevNextButton.left {
+  left: 10px;
+}
+
+.PrevNextButton.right {
+  right: 10px;
+}
+
+.ButtonContainer {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.LoginButton {
+    background-color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    font-size: 2rem;
+    margin-right: 10px;
+}
