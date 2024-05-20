@@ -1,7 +1,6 @@
-# Getting Started with Create React App
+# CAROUSEL UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+This project was created with STYLED COMPONENTS
 ## Available Scripts
 
 In the project directory, you can run:
